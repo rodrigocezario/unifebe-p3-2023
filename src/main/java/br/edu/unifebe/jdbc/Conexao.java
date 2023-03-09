@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-	private static String URL = "jdbc:mysql://localhost:3306/dbloja";
+	private static String URL = "jdbc:mysql://localhost:3306/dbloja?useSSL=false";
 	private static String USER = "root";
 	private static String PWS = "senhasecreta";
 

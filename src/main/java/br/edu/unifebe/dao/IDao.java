@@ -5,7 +5,7 @@ import java.util.List;
 public interface IDao<E> {
 	
 	//CRUD
-	void salvar(E e);
+	boolean salvar(E e);
 	
 	List<E> listaTodos();
 	E buscar(int id);
