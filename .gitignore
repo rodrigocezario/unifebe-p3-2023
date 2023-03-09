@@ -1,6 +1,7 @@
 .metadata
 bin/
 tmp/
+build/
 *.tmp
 *.bak
 *.swp
@@ -12,6 +13,9 @@ local.properties
 
 # External tool builders
 .externalToolBuilders/
+
+*.class
+*.jar
 
 # Locally stored "Eclipse launch configurations"
 *.launch
